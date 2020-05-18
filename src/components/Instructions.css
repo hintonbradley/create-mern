@@ -1,0 +1,89 @@
+.card {
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+    margin: 3vw auto;
+    padding: 1vw 0;
+    max-width: 1200px;
+    padding: 2vw 1vw;
+
+  }
+  
+  .card-light {
+    background: rgb(240, 238, 238);
+    background: #E0E0E0;
+  }
+  
+  .card-dark {
+    background: rgb(50, 50, 50);
+    color:rgb(240, 238, 238);
+  }
+  
+  /* .indent {
+    margin: 10px 2vw;
+  } */
+
+  .card p, .card li {
+    margin: auto 10px 10px;
+  }
+
+  /* .last.txt {
+    margin: 10px 5px 0;
+    text-shadow: 0px 1px #000;
+  }
+
+  .last.danger {
+    color: #c21808;
+  }
+
+  .last.success {
+    color: forestgreen;
+  } */
+
+  .header {
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+/* IMAGES */
+  .card img {
+      margin: 0 auto;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      border-radius: 5px;
+      width: 95%;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+  .img-xl {
+    max-width: 1000px;
+  }
+
+  .img-lg {
+    max-width: 800px;
+  }
+  
+  .img-md {
+    max-width: 650px;
+  }
+  
+  .img-sm {
+    max-width: 500px;
+  }
+
+  .img-xs {
+    max-width: 350px;
+  }
+
+  @media only screen and (min-width: 776px) {
+
+    .card p, .card li {
+      font-size: 20px;
+    }
+
+  }
